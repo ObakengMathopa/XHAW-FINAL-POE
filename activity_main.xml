@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0B10"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageBackground"
+        android:layout_width="1808dp"
+        android:layout_height="1515dp"
+        app:srcCompat="@drawable/img_4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-604dp"
+        tools:layout_editor_absoluteY="-399dp" />
+
+    <ImageView
+        android:id="@+id/imageViewOne"
+        android:layout_width="298dp"
+        android:layout_height="264dp"
+        android:layout_marginBottom="104dp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewThree"
+        app:srcCompat="@drawable/img_2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="151dp" />
+
+    <TextView
+        android:id="@+id/textViewThree"
+        android:layout_width="210dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="160dp"
+        android:text="EMPOWERING THE NATION SINCE 2018"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewOne"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="195dp" />
+
+    <ImageButton
+        android:id="@+id/buttonEnroll"
+        android:layout_width="184dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewThree"
+        app:layout_constraintTop_toBottomOf="@+id/textViewThree"
+        app:srcCompat="@drawable/img"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="79dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="44dp"
+        android:text="Enroll"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonEnroll"
+        app:layout_constraintTop_toBottomOf="@+id/textViewThree" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
